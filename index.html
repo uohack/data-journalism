@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>UOHack - Data journalism</title>
+		<meta name="description" content="Learn the basics of data journalism.">
+		<meta name="author" content="Rob Denton">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Data journalism</h1>
+					<h3>UOHack - Rob Denton</h3>
+				</section>
+				<section>
+					<h3>Vocab</h3>
+					<small>(5-10 minutes)</small>
+					<h3>Workflow</h3>
+					<small>(5-10 minutes)</small>
+					<h3>Example</h3>
+					<small>(30-40 minutes)</small>
+					<h3>Questions</h3>
+				</section>
+				<section>
+					<h2>Quick UOHack pitch</h2>
+				</section>
+				<section data-background="http://i.giphy.com/fJ1eCBjmMoEvu.gif">
+					&nbsp;
+				</section>
+				<section data-background="http://i.giphy.com/ktcUyw6mBlMVa.gif">
+					&nbsp;
+				</section>
+				<section data-background="http://i.giphy.com/xdHXIrM5Uz1UA.gif">
+					&nbsp;
+				</section>
+				<section data-background="http://i.giphy.com/lfmLzyIbqgCI0.gif">
+					&nbsp;
+				</section>
+				<section>
+					<h2>Tuesdays 6-8 p.m. here</h2>
+				</section>
+				<section>
+					<h2>CSV</h2>
+					<small>(Comma separated values)</small>
+					<pre>
+						<code class="hljs" data-trim data-noescape>name, age, position<br>Rob, 24, Web Developer<br>Mary, 25, Reporter<br>Peter, 54, Photographer<br>Jane, 36, Designer</code>
+					</pre>
+					<aside class="notes">
+						- Anyone can open (Excel, sheets, etc.)
+						- Almost anyone can export as
+						- If you only take one thing away today, remember this
+					</aside>
+				</section>
+				<section>
+					<h2>Excel vs. Google Sheets</h2>
+					<aside class="notes">
+						- Not terrible but not everyone has Excel
+						- Can upload to Google
+						- Second best to CSV
+					</aside>
+				</section>
+				<section>
+					<h2>PDFs</h2>
+					<aside class="notes">
+						- Not great
+						- Some can work with, some not (interactive vs. image)
+						- 9/10 times they can provide CSV
+					</aside>
+				</section>
+				<section>
+					<h2>Database files</h2>
+					<aside class="notes">
+						- Too many to name
+						- Many old, proprietary
+						- Ask if they can export as CSV or Excel
+						- NO SCREENSHOTS OF DATA
+					</aside>
+				</section>
+				<section>
+					<h2>Printed files</h2>
+					<aside class="notes">
+						- Unless you want to go all Spotlight...
+					</aside>
+				</section>
+				<section data-background="http://i.giphy.com/N4xCVPenanVcI.gif">
+					&nbsp;
+				</section>
+				<section>
+					<h2>Ask for data nicely</h2>
+					<p>If you have no other choice,<br>pursue open records request (FOIA)</p>
+					<aside class="notes">
+						- FOIA is an act of war, takes congressional approval
+					</aside>
+				</section>
+				<section>
+					<h2>Workflow</h2>
+				</section>
+				<section>
+					<ul>
+						<li>Story idea, press release, etc.</li>
+						<li>Acquire data</li>
+						<li>Clean data</li>
+						<li>Report story (let data guide you)</li>
+						<li>Visualize data</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Example time</h2>
+					<ul>
+						<li>High school graduation rates</li>
+						<li>CU grades</li>
+						<li>ASUO budget data</li>
+					</ul>
+				</section>
+				<section>
+					<h3>High school graduation rates</h3>
+					<p><a href="http://bit.ly/1zCW6BR" target="_blank">bit.ly/1zCW6BR</a></p>
+				</section>
+				<section>
+					<h3>CU grades</h3>
+					<p><a href="http://bit.ly/1S9KzmE" target="_blank">bit.ly/1S9KzmE</a></p>
+				</section>
+				<section>
+					<h3>ASUO budget</h3>
+					<p><a href="http://bit.ly/1qfCosd" target="_blank">bit.ly/1qfCosd</a></p>
+				</section>
+				<section>
+					<h2>Questions?</h2>
+					<p>Hit me up anytime<br><a href="http://twitter.com/robertrdenton">@robertrdenton</a></p>
+				</section>
+
+			</div><!-- /.slides -->
+		</div><!-- /.reveal -->
+
+		<script src="js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+	</body>
+</html>
